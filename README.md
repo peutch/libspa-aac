@@ -10,7 +10,7 @@ Dependencies:
 
 Build instructions:
 
-- `meson setup build -Dbuildtype=debugoptimized`
+- `meson setup build -Dbuildtype=release -Dc_args=-march=native`
 - `meson compile -C build`
 - `meson install -C build`
 
