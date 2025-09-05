@@ -6,7 +6,7 @@ distributions which do not build pipewire with AAC support, such as Debian.
 Dependencies:
 
 - `libspa-0.2-dev`
-- `libdfk-aac-dev`
+- `libfdk-aac-dev`
 
 Build instructions:
 
